@@ -1,0 +1,70 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 300px 300px;
+    grid-column-gap: 40px;
+    grid-row-gap: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+.item1{
+	background-image: url('../images/2.jpg');
+	background-repeat: no-repeat; 
+ 	background-size: 100% 200px;
+ 	position: relative;
+}
+.item2{
+	background-image: url('../images/3.jpg');
+	background-repeat: no-repeat; 
+ 	background-size:100% 200px;
+ 	position: relative;
+}
+.item3{
+	background-image: url('../images/4.jpg');
+	background-repeat: no-repeat; 
+ 	background-size:100% 200px;
+ 	position: relative;
+}
+.item4{
+	background-image: url('../images/5.jpg');
+	background-repeat: no-repeat; 
+ 	background-size:100% 200px;
+ 	position: relative;
+}
+.item5{
+	background-image: url('../images/6.jpg');
+	background-repeat: no-repeat; 
+ 	background-size:100% 200px;
+ 	position: relative;
+}
+.item6{
+	background-image: url('../images/7.jpg');
+	background-repeat: no-repeat; 
+ 	background-size:100% 200px;
+ 	position: relative;
+}
+.pr{
+	position: absolute;
+	top: 200px;
+	width: 100%;
+}
+.text{
+	color : red;
+	font-size: 14px;
+	font-weight: bold;
+}
+.money{
+	color: blue;
+
+}
+@media screen and (max-width:768px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300 ;
+    grid-column-gap: 40px;
+    grid-row-gap: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+}

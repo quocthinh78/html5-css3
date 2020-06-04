@@ -1,0 +1,32 @@
+article,.nav1{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+@media screen and (max-width:1320px) {
+  .second-ul{
+	display: none;
+	}
+}
+@media screen and (max-width:992px) {
+  
+}
+@media screen and (max-width:768px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 40px;
+    grid-row-gap: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+}
+@media screen and (max-width:556px) {
+  .header>ul>li>a {
+	font-size: 15px;
+  }
+  .header>ul>li {
+  	margin:0 6px;
+  }
+  
+}

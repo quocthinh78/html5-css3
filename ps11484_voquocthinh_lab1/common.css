@@ -1,0 +1,17 @@
+header {
+	width: 960px;
+	height: 100px;
+	background-color: #0091be;
+	padding: 10px;
+	color: #ffffff;
+}
+.text{
+	float: left;
+	width: 200px;
+	font-size: 17px;
+	margin-top: 10px;
+}
+.img-header {
+	float: left;
+	margin-left: 152px;
+}

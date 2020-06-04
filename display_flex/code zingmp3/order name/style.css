@@ -1,0 +1,33 @@
+.box {
+  display:flex;
+  padding: 8px 0;
+  border-bottom:1px solid #bbb;
+   align-items :center;
+}
+
+.number {
+  font-size : 20px;
+  padding : 0 8px;
+ 
+}
+.name {
+  margin-bottom :8px;
+}
+.single{
+  font-size : 13px;
+  color:#999;
+}
+.infor {
+  flex-grow:1;
+}
+.view{
+  padding :10px;
+  font-size:13px;
+  color :#999;
+}
+.name { 
+font-size : 15px;
+}
+.boxflex {
+  width : 250px;
+}

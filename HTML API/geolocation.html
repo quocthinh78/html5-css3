@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+	</head>
+	<body>
+		<div id="demo" ></div>
+		<button onclick="getPosition()">dsa</button>
+		<script type="text/javascript">
+			var x = document.getElementById('demo');
+			function getPosition(){
+				navigator.geolocation.getCurrentPosition(showPosition);
+			}
+			function showPosition(position ){
+				x.innerHTML = position.coords.latitude+'dd'+position.coords.longitude;
+			}
+		</script>
+	</body>
+</html>
